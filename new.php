@@ -49,6 +49,9 @@
             elseif($c<=0){
                 echo'<h1 style="color:black;">'.$c.'</h1><br>';
             }
+            else{
+                echo"lol";
+            }
             ?>
 
 
