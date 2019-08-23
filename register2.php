@@ -7,8 +7,9 @@
         <title></title>
     </head>
         <body>
-        <fieldset style="width:40%">
-        <form ACTION="rcetak2.php" METHOD="POST" NAME="input">
+        <fieldset style="width:25%; margin-left:450px; margin-top:20px; margin-bottom:20px;">
+        <form ACTION="rcetak2.php" METHOD="POST" NAME="input" style="margin-left:20px">
+        <h2>Form Pendaftaran</h2><br>
         <label>No.pendaftaran</label><br>
             <input type="number" name="no" required><br>
         <label>NISN</label><br>
@@ -18,12 +19,12 @@
         <label>Alamat</label><br>
         <textarea name="alamat"></textarea><br>
         <label>Tempat Lahir</label><br>
-             <input type="text" name="ttg"><br>
+             <input type="text" name="ttg"><br><br>
         <label>Tanggal lahir</label>
-            <input type="date" name="tanggal"><br>
+            <input type="date" name="tanggal"><br><br>
         <label>Jenis kelamin</label><br>
             <input type="radio" name="gender" value="Male"> Male<br>
-            <input type="radio" name="gender" value="Femele"> Female<br>
+            <input type="radio" name="gender" value="Femele"> Female<br><br>
         <label>Jurusan</label><br>
             <select name="jurusan">
             <option value="RPL">RPL</option>
@@ -39,7 +40,7 @@
             <option value="Hindu">Hindu</option>
             <option value="Budha">Budha</option>
             <option value="Lainnya">Lainnya</option>
-            </select><br>
+            </select><br><br>
         <label>Nama Ayah</label><br>
             <input type="text" name="namay" ><br>
         <label>Pekerjaan ayah</label><br>
@@ -47,14 +48,15 @@
         <label>Nama Ibu</label><br>
             <input type="text" name="namai" ><br>
         <label>Pekerjaan ibu</label><br>
-            <input type="text" name="pki" ><br>
+            <input type="text" name="pki" ><br><br>
+        <label>Hobi</label><br>
    <input type="checkbox" name="hobi1" value="Nonton"checked> Nonton<br>
    <input type="checkbox" name="hobi2" value="Games"> Games<br>
    <input type="checkbox" name="hobi3" value="Renang">Renang<br>
    <input type="checkbox" name="hobi4" value="Baca">Baca<br>
-   <input type="checkbox" name="hobi5" value="Tidur">Tidur<br>
+   <input type="checkbox" name="hobi5" value="Tidur">Tidur<br><br>
             <input type="submit" name="simpan" value="simpan">
-            <input type="reset" name="reset" value="reset">
+            <input type="reset" name="reset" value="reset"style="margin-bottom:30px;">
     
 </form>
 </fieldset>
