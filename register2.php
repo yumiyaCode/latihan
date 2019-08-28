@@ -8,12 +8,12 @@
     </head>
         <body>
         <fieldset style="width:25%; margin-left:450px; margin-top:20px; margin-bottom:20px;">
-        <form ACTION="rcetak2.php" METHOD="POST" NAME="input" style="margin-left:20px">
+        <form ACTION="rcetak2.php" METHOD="POST" NAME="input" style="margin-left:40px">
         <h2>Form Pendaftaran</h2><br>
         <label>No.pendaftaran</label><br>
             <input type="number" name="no" required><br>
         <label>NISN</label><br>
-        <input type="number" name="nisn" maxlength="9" minlength="6" required><br>
+        <input type="number" name="nisn" required><br>
         <label>Nama</label><br>
             <input type="text" name="nama" ><br>
         <label>Alamat</label><br>
